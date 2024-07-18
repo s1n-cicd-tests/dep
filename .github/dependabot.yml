@@ -10,4 +10,4 @@ updates:
     target-branch: "../../s1n-cicd-tests/dep/evil"
     schedule:
       interval: "daily"
-      time: "18:11"
+      time: "18:15"
