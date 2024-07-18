@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "lodash": "4.17.20"
+    "lodash": "4.17.20",
+    "lodash.merge":"4.5.1"
   }
 }
