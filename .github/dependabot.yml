@@ -7,7 +7,6 @@ version: 2
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/" # Location of package manifests
-    target-branch: "../../s1n-cicd-tests/dep/evil"
     schedule:
       interval: "daily"
-      time: "18:15"
+      time: "11:42"
