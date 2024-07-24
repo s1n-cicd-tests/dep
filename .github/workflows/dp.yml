@@ -3,7 +3,7 @@ on:
    pull_request:
 
 env:
-   GH_TOKEN: ${{ github.token }}
+   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 permissions:
    contents: write
