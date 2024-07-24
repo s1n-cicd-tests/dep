@@ -9,8 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "lodash": "4.17.13",
-    "lodash.merge":"4.5.1",
+    "lodash": "4.9.0",
+    "lodash.merge":"4.5.0",
     "lodash-es":"3.10.1",
     "lodash.defaultsdeep":"4.3.2"
   }
