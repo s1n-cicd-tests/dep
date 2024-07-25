@@ -1,2 +1,1 @@
-# dep
-a
+Hello from dependabot :)
