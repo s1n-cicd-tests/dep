@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "mustache": "4.2.0",
-    "yarn":"1.0"
+    "yarn":"1.0",
+    "your-private-package": "https://registry.npmjs.org/your-private-package#1.0.0"
   }
 }
