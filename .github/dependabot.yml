@@ -16,4 +16,4 @@ updates:
     registries: npm-npmjs
     schedule:
       interval: "daily"
-      time: "12:48"
+      time: "12:54"
