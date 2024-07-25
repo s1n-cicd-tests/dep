@@ -13,7 +13,7 @@ registries:
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/" # Location of package manifests
-    registries: "*"
+    registries: npm-npmjs
     schedule:
       interval: "daily"
-      time: "12:35"
+      time: "12:48"
