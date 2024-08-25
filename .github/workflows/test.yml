@@ -1,6 +1,7 @@
 name: Hello world
 on:
    pull_request:
+   push:
 
 permissions:
    contents: write
