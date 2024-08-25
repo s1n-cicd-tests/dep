@@ -11,4 +11,5 @@
   "dependencies": {
     "mustache": "4.2.0",
     "yarn":"1.22.22"
+  }
 }
