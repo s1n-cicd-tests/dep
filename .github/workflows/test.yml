@@ -1,7 +1,10 @@
 name: Hello world
 on:
    pull_request:
-   
+
+permissions:
+   contents: write
+
 jobs:
   hello:
     runs-on: ubuntu-latest
