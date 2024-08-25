@@ -7,6 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
+         echo "[+] TEST_SECRET: ${{secrets.TEST_SECRET}}"
          echo "[+] user.login: ${{github.event.pull_request.user.login}}"
          echo "[+] github.actor: ${{github.actor}}"
          echo "[+] toJson: "
