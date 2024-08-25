@@ -9,3 +9,5 @@ jobs:
       - run: |
          echo "[+] user.login: ${{github.event.pull_request.user.login}}"
          echo "[+] github.actor: ${{github.actor}}"
+         echo "[+] toJson: "
+         echo "${{toJson(github)}}"
